@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.container{
+    min-height: 100vh;
+    margin: 43px 0px;
+}
+.container h1{
+    font-family: 'Lobster';
+}
+
+.myInput{
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    font-size: 16px;
+    border: 2px solid #a06b6b;
+    border-radius: 12px;
+    outline: none;
+}
+.btn{
+    padding: 8px 16px;
+    font-size: 18px;
+    border: 2px solid #1f1b1b;
+    border-radius: 10px;
+    color: white;
+    background: #dc1e1e;
+    cursor: pointer;
+    outline: none;
+    margin: 26px;
+}
